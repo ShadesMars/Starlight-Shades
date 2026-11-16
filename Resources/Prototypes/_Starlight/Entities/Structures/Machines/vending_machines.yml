@@ -202,7 +202,7 @@
   name: security dispenser
   components:
   - type: AccessReader
-    access: [["Security"], ["Cadet"]]
+    access: [["Security"]]
   - type: Sprite
     sprite: _Starlight/Structures/Machines/VendingMachines/security.rsi
   - type: Store
@@ -252,6 +252,8 @@
     - SalvageConsumeables
     - SalvageMercenaryEquipment
     - SalvageCybernetics
+    - SalvageBlueprints
+    - SalvageSurplus
     - SLSecret
     currencyWhitelist:
     - SalvageTicket
